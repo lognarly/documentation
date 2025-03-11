@@ -1,0 +1,57 @@
+<div class="expression-repl">
+  <div class="repl-header">
+    <h4>Expression Language REPL</h4>
+  </div>
+  <div class="repl-container">
+    <div class="repl-history" id="repl-history">
+      <!-- Pre-populated examples -->
+      <div class="repl-entry">
+        <div class="repl-command">
+          <span class="repl-prompt">→</span>
+          <span class="repl-expression">x = 5</span>
+        </div>
+        <div class="repl-result">5</div>
+      </div>
+      <div class="repl-entry">
+        <div class="repl-command">
+          <span class="repl-prompt">→</span>
+          <span class="repl-expression">y = 2.5</span>
+        </div>
+        <div class="repl-result">2.5</div>
+      </div>
+      <div class="repl-entry">
+        <div class="repl-command">
+          <span class="repl-prompt">→</span>
+          <span class="repl-expression">x + y</span>
+        </div>
+        <div class="repl-result">7.5</div>
+      </div>
+      <div class="repl-entry">
+        <div class="repl-command">
+          <span class="repl-prompt">→</span>
+          <span class="repl-expression">c = [1, "b", 2.5, true]</span>
+        </div>
+        <div class="repl-result">[1, "b", 2.5, True]</div>
+      </div>
+      <div class="repl-entry">
+        <div class="repl-command">
+          <span class="repl-prompt">→</span>
+          <span class="repl-expression">c[1]</span>
+        </div>
+        <div class="repl-result">"b"</div>
+      </div>
+      <div class="repl-entry">
+        <div class="repl-command">
+          <span class="repl-prompt">→</span>
+          <span class="repl-expression">myCollection[1]</span>
+        </div>
+        <div class="repl-result">2</div>
+      </div>
+    </div>
+    <div class="repl-input-container">
+      <span class="repl-prompt">→</span>
+      <input type="text" class="repl-input" id="repl-input" placeholder="Enter an expression..." aria-label="Expression input">
+      <button type="button" class="run-expression-btn" id="repl-run-btn" aria-label="Evaluate expression">▶</button>
+    </div>
+  </div>
+</div>
