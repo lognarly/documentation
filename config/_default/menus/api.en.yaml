@@ -3106,6 +3106,19 @@ menu:
         unstable:
           - v2
         order: 28
+    - name: Search security findings
+      url: '#search-security-findings'
+      identifier: security-monitoring-search-security-findings
+      parent: security-monitoring
+      generated: true
+      params:
+        versions:
+          - v2
+        operationids:
+          - SearchSecurityFindings
+        unstable:
+          - v2
+        order: 2
     - name: Create Jira issues for security findings
       url: '#create-jira-issues-for-security-findings'
       identifier: security-monitoring-create-jira-issues-for-security-findings
@@ -3168,6 +3181,19 @@ menu:
           - DetachCase
         unstable: []
         order: 46
+    - name: List security findings
+      url: '#list-security-findings'
+      identifier: security-monitoring-list-security-findings
+      parent: security-monitoring
+      generated: true
+      params:
+        versions:
+          - v2
+        operationids:
+          - ListSecurityFindings
+        unstable:
+          - v2
+        order: 1
     - name: Get a finding
       url: '#get-a-finding'
       identifier: security-monitoring-get-a-finding
@@ -8350,7 +8376,8 @@ menu:
           - v2
         operationids:
           - DeleteIncidentImpact
-        unstable: []
+        unstable:
+          - v2
         order: 9
     - name: Create an incident impact
       url: '#create-an-incident-impact'
@@ -8362,7 +8389,8 @@ menu:
           - v2
         operationids:
           - CreateIncidentImpact
-        unstable: []
+        unstable:
+          - v2
         order: 7
     - name: List an incident's impacts
       url: '#list-an-incidents-impacts'
@@ -8374,7 +8402,8 @@ menu:
           - v2
         operationids:
           - ListIncidentImpacts
-        unstable: []
+        unstable:
+          - v2
         order: 6
     - name: 'Create, update, and delete incident attachments'
       url: '#create,-update,-and-delete-incident-attachments'
